@@ -1,5 +1,6 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles, } from "@material-ui/core/styles";
+import { Typography, Grid } from "@material-ui/core";
 
 
 const useStyles = makeStyles(theme => ({
@@ -28,11 +29,16 @@ export default function Footer(props) {
   return (
     <footer className={classes.footer}>
     
-      <img
-        alt="black decorative slash"
-        src="asset/footerAdornment.svg"
-        className={classes.adornment}
-      />
+     
+    <Grid containter direction='row'>
+    
+
+      <Grid item>
+        <Typography style={{color:'white'}}>
+          Design by David Ray Jr
+        </Typography>
+      </Grid>
+    </Grid>
 
 
       

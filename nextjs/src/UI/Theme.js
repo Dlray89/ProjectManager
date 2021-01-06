@@ -85,6 +85,19 @@ export default createMuiTheme({
     }
   },
   overrides: {
+    MuiTableSortLabel:{
+      root:{
+        '&:hover':{
+          color: arcOrange
+        },
+        '&.MuiTableSortLabel-active':{
+          color: arcOrange
+        }
+      },
+      icon:{
+        fill: arcOrange
+      }
+    },
     MuiTableCell:{
       head:{
         fontSize:'1rem',
