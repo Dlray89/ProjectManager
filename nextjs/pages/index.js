@@ -117,7 +117,7 @@ const ProjectManager = () => {
       "Mobile App",
       "E-Commerce",
       "Easy",
-      "And",
+      "Android",
       "0-10",
       "$1500",
       true
