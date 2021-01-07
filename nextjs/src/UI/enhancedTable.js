@@ -496,7 +496,7 @@ export default function EnhancedTable(props) {
 
   const priceFilters = (switchRows) => {
         if (filterPrice !== '') {
-            const newRows = [...switcthRows]
+            const newRows = [...switchRows]
             newRows.map((row) =>
         eval(
           `${filterPrice} ${
