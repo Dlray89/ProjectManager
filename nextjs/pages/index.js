@@ -487,7 +487,6 @@ const ProjectManager = () => {
           open={openDialog}
           onClose={() => setOpenDialog(false)}
           fullScreen={matchesSM}
-          style={{ zIndex: 1302 }}
         >
           <Grid container justify="center">
             <Grid item>
